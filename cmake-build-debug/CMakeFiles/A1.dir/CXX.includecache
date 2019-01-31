@@ -1,0 +1,124 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Main/BufferMgr/headers/MyDB_BufferManager.h
+MyDB_PageHandle.h
+../Main/BufferMgr/headers/MyDB_PageHandle.h
+MyDB_Table.h
+../Main/BufferMgr/headers/MyDB_Table.h
+MyDB_Page.h
+../Main/BufferMgr/headers/MyDB_Page.h
+MyDB_LRU.h
+../Main/BufferMgr/headers/MyDB_LRU.h
+queue
+-
+map
+-
+
+../Main/BufferMgr/headers/MyDB_LRU.h
+memory
+-
+map
+-
+MyDB_BufferManager.h
+../Main/BufferMgr/headers/MyDB_BufferManager.h
+
+../Main/BufferMgr/headers/MyDB_Page.h
+memory
+-
+MyDB_Table.h
+../Main/BufferMgr/headers/MyDB_Table.h
+map
+-
+
+../Main/BufferMgr/headers/MyDB_PageHandle.h
+MyDB_Page.h
+../Main/BufferMgr/headers/MyDB_Page.h
+memory
+-
+
+../Main/Catalog/headers/MyDB_Table.h
+memory
+-
+string
+-
+
+../Main/Qunit/headers/QUnit.h
+sstream
+-
+string
+-
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc
+MyDB_BufferManager.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_BufferManager.h
+MyDB_PageHandle.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_PageHandle.h
+MyDB_LRU.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_LRU.h
+iostream
+-
+string
+-
+stdlib.h
+-
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_LRU.cc
+memory
+-
+iostream
+-
+string
+-
+MyDB_LRU.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_LRU.h
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_Page.cc
+memory
+-
+iostream
+-
+MyDB_BufferManager.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_BufferManager.h
+MyDB_Page.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_Page.h
+fcntl.h
+-
+unistd.h
+-
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_PageHandle.cc
+memory
+-
+iostream
+-
+MyDB_PageHandle.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_PageHandle.h
+MyDB_BufferManager.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_BufferManager.h
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/BufferQUnit.cc
+MyDB_BufferManager.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/MyDB_BufferManager.h
+MyDB_PageHandle.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/MyDB_PageHandle.h
+MyDB_Table.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/MyDB_Table.h
+QUnit.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/QUnit.h
+iostream
+-
+unistd.h
+-
+vector
+-
+
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/source/MyDB_Table.cc
+MyDB_Table.h
+/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/source/MyDB_Table.h
+

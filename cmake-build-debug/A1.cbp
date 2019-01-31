@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1">
+				<Option output="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/A1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/headers"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Qunit"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Qunit/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1/fast">
+				<Option output="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/A1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/headers"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Qunit"/>
+					<Add directory="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Qunit/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/linhao/Rice/COMP530/Assignment\ 1/A1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Build/SConstruct">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/CMakeLists.txt">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers/MyDB_BufferManager.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers/MyDB_LRU.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers/MyDB_Page.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/headers/MyDB_PageHandle.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_LRU.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_Page.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferMgr/source/MyDB_PageHandle.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/BufferTest/source/BufferQUnit.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/headers/MyDB_Table.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Catalog/source/MyDB_Table.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/Main/Qunit/headers/QUnit.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/README.md">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/A1">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/A1.cbp">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/CMakeCache.txt">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/Makefile">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/barfoo">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/cmake_install.cmake">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/foobar">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/foobarfoo">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/cmake-build-debug/tempDSFSD">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/linhao/Rice/COMP530/Assignment 1/A1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
